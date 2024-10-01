@@ -1,303 +1,321 @@
+/*── ⊹ ࣪ ˖♡˖ ࣪ ⊹ ── Configurações Gerais ── ⊹ ࣪ ˖♡˖ ࣪ ⊹ ──*/
+
 header, section, footer, aside, nav, article, figure, figcaption {
-display: block;
-}
-body {
-color: #666666;
-background-color: #f9f8f6;
-background-image: url("assets/adve.jpg");
-background-attachment: fixed; 
-background-size: cover; /* Ajuste a imagem para cobrir a tela */
-background-position: center;
-font-family: Georgia, Times, serif;
-line-height: 1.4em;
-margin: 0px;
-}
-
-
-
-.wrapper {
-width: 940px;
-margin: 20px auto 20px auto;
-border: 2px solid #000000;
-background-color: #ffffff;
-}
-header {
-height: 160px;
-background-image: url(assets/Noitosfera.png);
-}
-h1 {
-text-indent: -9999px;
-width: 940px;
-height: 130px;
-margin: 0px;
-}
-nav, footer {
-clear: both;
-color: #ffffff;
-background-color: #aeaca8;
-height: 30px;
-}
-nav ul {
-margin: 0px;
-padding: 5px 0px 5px 30px;
-}
-nav li {
-display: inline;
-margin-right: 40px;
-}
-nav li a {
-color: #ffffff;
-}
-nav li a:hover, nav li a.current {
-color: #000000;
-}
-section.lojinha {
-float: left;
-width: 659px;
-border-right: 1px solid #eeeeee;
-}
-article {
-clear: both;
-overflow: auto;
-width: 100%;
-}
-hgroup {
-margin-top: 40px;
-}
-figure {
-float: left;
-width: 290px;
-height: 220px;
-padding: 5px;
-margin: 20px;
-border: 1px solid #eeeeee;
-}
-figcaption {
-font-size: 90%;
-text-align: left;
-}
-aside {
-width: 230px;
-float: left;
-padding: 0px 0px 0px 20px;
-}
-aside section a {
-display: block;
-padding: 10px;
-border-bottom: 1px solid #eeeeee;
-}
-aside section a:hover {
-color: #985d6a;
-background-color: #efefef;
-}
-a {
-color: #e57561;
-text-decoration: none;
-}
-h1, h2, h3 {
-font-weight: normal;
-}
-h2 {
-margin: 10px 0px 5px 0px;
-padding: 0px;
-}
-.button {
-background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
-border: 0;
-border-radius: 12px;
-color: #FFFFFF;
-cursor: pointer;
-display: inline-block;
-font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-font-size: 16px;
-font-weight: 500;
-line-height: 2.5;
-outline: transparent;
-padding: 0 1rem;
-text-align: center;
-text-decoration: none;
-transition: box-shadow .2s ease-in-out;
-user-select: none;
--webkit-user-select: none;
-touch-action: manipulation;
-white-space: nowrap;
-}
-
-.button:not([disabled]):focus {
-box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
-}
-
-.button:not([disabled]):hover {
-box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
-}
-/h3 {
-margin: 0px 0px 10px 0px;
-color: #fd8b3e;
-}/
-aside h2 {
-padding: 30px 0px 10px 0px;
-color: #f46140;
-}
-footer {
-font-size: 80%;
-padding: 7px 0px 0px 20px;
-}
-
-/* tabela */
-
-.temporadas {
-    padding: 20px;
-    text-align: center; 
-}
-
-.table {
-    border-collapse: collapse;
-    width: 100%;
-    max-width: 800px;
-    margin: 20px auto;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: left;
-}
-
-.table th, .table td {
-    padding: 12px 15px;
-    border-bottom: 1px solid #ddd;
-}
-
-.table th {
-    background-color: #f0f0f0;
-    font-weight: bold;
-    text-align: left;
-}
-
-.table tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
-
-.table a {
-    display: inline-block; /* Para alinhar os logos */
-    margin-left: 10px;
-}
-
-.platform-logo {
-    display: inline-block;
-    width: 30px;
+    display: block;
+  }
+  
+  body {
+    color: #666666;
+    background-color: #f9f8f6;
+    background-image: url("assets/adve.jpg");
+    background-attachment: fixed; 
+    background-size: cover; /* Ajuste a imagem para cobrir a tela */
+    background-position: center;
+    font-family: Georgia, Times, serif;
+    line-height: 1.4em;
+    margin: 0px;
+  }
+  
+  .wrapper {
+    width: 940px;
+    margin: 20px auto 20px auto;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+  }
+  
+  header {
+    height: 160px;
+    background-image: url(assets/Noitosfera.png);
+  }
+  
+  h1 {
+    text-indent: -9999px;
+    width: 940px;
+    height: 130px;
+    margin: 0px;
+  }
+  
+  nav, footer {
+    clear: both;
+    color: #ffffff;
+    background-color: #aeaca8;
     height: 30px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    cursor: pointer;
-}
-
-.platform-logo.netflix {
-    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAADDklEQVR4nO2Wy08TURSHSWQDKkJCebQ1RFEoWB4+gLZAW8fC0LktbSmlQKed6QJXJkYU0cRIYmL8A1wpqHs3BB8YN26NMXHjIxHiIxH/jmPO2HuZoXdmfMS44STfZk5zvnt+bSe3omK3/mctLS1VqqraVSwWI79LPp9n4IxQKFT5S1JFUXpVVd0sFotAUVW1DEVRyigUCmXk8/lNWZZ7bDdVFGXzTwQlSRmyLCMbmUxmj6lYlmWvlYQ3mA7P5XJUYgCfl3peq5jDZqJFIQKrrR6NO90n2MAFQYAbgYDGXCzGniOzs7OMXC4XNhVjkxOTxs0BP2xV1cP3qnr4Vu2AYjIFMzMzcL+zE5653RpXQyGDDPuUbDZrLebFhCwGg/CupkETI7dP+mB6etogvhIMGmTYp2TtxLyYENzmhaOZiV87WiCTycC9jg6DWCfaSdhSzIsJwaFrLhd82etg8gtCxCBeHB5moqmpKQNZKzE2eTEhKF53u+FlXSMTPzxyDFZ04stDQ0yEaehJp9PWYpOYtG1w+JMmJ/uRfd7fCCtH2wxilExOTpaRthPzYkJwKA5/5HLBm7rt7/qxq0VLAnsLg4NUwiNsKebFhOBQHI6S1YOHmPjtgSbtMFQ8MTHBJZFImIvxVCYxMTGy3NYGH2qdTL7e2Kw9vxQIQCqVKiOZTNqLeTHhiXEoFa94PLDs6WbiV7UN8LQkRslOEomEvZgXE55aL15ub4fC6TOwVf3zr/W12gFrThdc9PupxMD4+Li1GJu8mBAcqhcTQuC58zDb+kV9E8z7fJpETzwe1yCEWItNYioTx2IxuHbKx8TvaxrgfH8/E1Hwc4itmBcTgttQ8d2SOB6Nwqd92+/v6z3HmUgnpIQtxbyYkJwgwHxfH5zFl4QgsKFzg0Nwq6sXHrS2w7kBv14EkiQxiJWYEOLlxWSygamEEo1GGYQQ84sAXswIIZtWEjuBnrGxMQ1RFD9aXn2wJEnqlSRpgycwk1CBHlEUKRujo6PWlz1aeDqMRhTFyN8wMjLitd10tyr+cf0AAOUVfciXF9sAAAAASUVORK5CYII="); /* logo Netflix em base64 */
-}
-
-.platform-logo.amazon-prime {
-    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAE9ElEQVR4nO3W/1PTdRwH8Hm7sosuLk24LKw8FHeAkHCCou6jvMs7uQuvXOiZJhByJgQipoU2FRRKGAoHGjBQHN/GcISMrRCHDLcxYOAQkLY5hgMmGGSUnr/w7NzdjFmbcHrnL77+gPfjnq/X633vN432op578fl0z9SLPgyOmHhn1RPfXCnx/UlGfLly4n9ORfzL1SRQoCGB1d1kVW0fWSXWE2a9kTClJhIsN5N1irGlLD7oMzIXJVVscWdXDnmkVIORVgvPDAm8T9XDJ0cK3zwZlhUq4F+swvIyNQIrNVgh7EZQbR9WS/RgXjJi7RUTgq+aEdxyZ/Cj9j/CpoW+m3B2y8L9JXBPqsCiwwI8LU6Uo5NPxll8ulssd+i9vefwLPGHyR22/e3o0z7vfJWHBV9z4QiPqekEk9s8s+TyMW+7sOsX2dT8qFxYca+kUiw7Uol1GSILvoIjhh9HgriaDqzOa7TgoRVtWFncgo3CawgsV2OlQINNv2qxWvQYLhum7MNbM6m3wrNgxTPFaki6jFAbR7G1QIqRifsQXhvALzeGEF3VBtPdexD1mdEzOoHmW+NIU/ajYWAcFdo7ONN92yY5U3rLPjw37ATlui0TVpwjakcCrwnHL7bh4AUVjL9PWJJLegYRxW9Bm2kM2ytbUXNjGOzG35DTPoDbfz9AYfcwIht0tm2vNziAP02l5m0+ASueXqNCU68JKr0ZgUcrIdeZLTPnqXTYfLYJop5BsHhyFLX3Y6/4OlJkWvCuD+GycQxxjTqbmQeJtfZh59Bkau6mVFjx9Gol4gobHs38qbb9Yq8DOIRNvbExGVbcLTwLC6JyLG1fHF+Iuk7DI/xzrhTpl7qmjQcIuxzA65Mo55DDsOKhR8rhG5ePoG+LEXK8CnuKG7EwvgiJ5c3gynpRptJh6bFqJAjbsK1EDq8MCRLrNPi+oRfLuVdt8IBKB7BT8H7q9fUHYcXjT9chvUoOnrQL0afFMI7eRcL5Rog6DMiu16BUqUVFqx7sWjWG7t7DvpoOSPUjKOkcQH5bv03ygLIOBzBzL/Va8AFYcbctP0DRMwC1bhiLo3MtcJpQiWPCFkQVXEKJvA8KnRnnlVrEC1pwoqEbJ6/cQEy1Gj/3DNm03e98q314dlAc9eqaREzFs4UKsIsvw217JmTdA5a2q2+aUddhsNzznUWX0WoYAU+pxRqOCArDKDoHxxFWorCZuV+RwgEcsJt6ZeUePI5PXbip93wm2+6TL7MP032iqZeXx8KKB3x5ErEnqzEvNHlauN9RAU41XIfi5giOiK/Z4tlSB7BnJPXSB7swFf8w7gyaNQZk8GVYl1iAN1n/xd1252HtMQG+Eyhwof0mvqlqwc7SqzbJPTPr7cM0j0iK7h2Fx3GXDYdwKF8Co3kcE/ceoFM/jCuafkja9VD0mTD2133cuvMnUmtaseQAD/v4Cngc4tu03SujjmkfXhy5dBYjAv+HW2e+YncudnKESCltRHJZE2LOSEAd5D1x5h5pIvvPIo3Gos9ihA8+CZ/pwrmzBaaHfzgHMI1GWxKxeRYjYvLZ4bxJ96RyFm1axdgR9kySxxaY3k8onib6qFh0mscObxojnNC9owjddxeZ7R9DZgfGEydmInEKPkCc1ycR5xA2mfNxMpnzSSpx+exH4rKNQ+aHZxHXiFyvh3+4f897UbTnU/8AMxwT6kZhRPMAAAAASUVORK5CYII="); /* logo Amazon Prime em base64 */
-}
-
-.platform-logo.max{
-    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC+0lEQVR4nM2W204TURSGeQbxATw8ClHBGEuvgWvhDYRLRRopMFx26jEqEo2JCaBRSlSMAsWZIoUiRykoZUqFNm2BUmav36wZhhaBcCgT3MlKZrr3nm+vtf6Z/kVF/9MobfxysbTJX+OUVJdTCtw9XqiuMre/usQ1eOFA4LUm5axDUj9Uese0uk5Nv9UdRyFR26npVXJIK5eUnpIGf/G+0PJWZaahJyE8isBJxh1fXDgldXpPOGdqBzQf7pAU366eVnhDUbugVlTKIe2Se+B8Dtzkr6nriup2g292aPrVxoEb2+BySXXf7o7bCvUoAsxwtqiN+f1trffZD673xcGsQ4EjSRjRFhTgMbRIsMamAIJRwsMhgR8xQmYTSG4A/b/IPvDUMmEpbR5gNk7QCRiPEcJxc/7zHBUGXkwBGzoQ3YLkg5fXgEiKQASMRMmowMo6jD0ctoIXkgRBwKgFXgO0kwBH9in1WIy2D2OVeuIPYS5xQqWOHCCuYS0nrnUWVwboK0RcXlXg3TThzZT5kM4JMu75d76/FxDoDZMBeRYU+DhL+BQmvAyZ87IijPuuSYH7gSOAuXyxVVMsiYwZWtrsnZcrkQJ+J8koL2e6mgXeThHWssCTYYHBBcLSKrYP6jkMmDeyoHgTl5FH24iZRWoD6J0zhSVvrZ9cJmSFKSZWNx+W3+nnI0csdfuoQDqbUyW/LnwAvmZgYJEMVVvz3xZMRfP1i5B50JmVY4ir/QDwh1lhlPbxdwFZ5bKTUSGeDycI8wlCRgdejx8R3BbcCeZsLDD3jR/I6rZUrKXJWP913mwBi6nnJxmfz0db+zyHFVd7Xn+4V5yZ1f8HgdyaV2PmHF+zui0FczzNW+vZC3xqf4tlbn81mzu7wbX/GgG2oFXyqO3Wp0IOaVdc/ed2+C62oGzI7ILW+1aEQ1Lf74AaWTf4i9mC2gE3ocrM5ea+M7vAFpwtKLtBNmYFG/oOTefycqb7QvMHW1AWgaNZabneqniOE7yXn7Grp6c9/gJTX6DDXLCbDQAAAABJRU5ErkJggg=="); /* logo HBO Max em base64 */
-}
-
-
-.form-container {
-  width: 500px; 
-  margin: 40px auto;
-  padding: 30px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  background-color: #f9f8f6; 
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.form-container h2 {
-  text-align: center;
-  margin-bottom: 20px;
-  color: #e57561; 
-}
-
-.form-container label {
-  display: block;
-  margin-bottom: 5px;
-  font-weight: bold;
-  color: #333; 
-}
-
-.form-container input[type="text"],
-.form-container input[type="email"],
-.form-container textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-.form-container textarea {
-  resize: vertical; 
-}
-
-.form-container .button {
-  display: block;
-  width: 100%;
-  padding: 12px;
-  border: none;
-  border-radius: 4px;
-  background-color: #e57561;
-  color: #fff;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.form-container .button:hover {
-  background-color: #d3614f;
-}
-
-
-.personagens-subtitulo {
-    font-size: 1.5em;
-    font-style: normal;
-    color: #d3614f;
-    text-align: center;
-    margin-bottom: 30px;
-    text-shadow: 2px 2px 4px rgba(245, 229, 229, 0.2);
-}
-
-.personagens {
-    display: flex;
-    flex-wrap: wrap; /* Permite que os artigos quebrem em novas linhas */
-    justify-content: center; 
-    gap: 20px; /* Espaçamento entre os artigos */
-    padding: 20px; /* Espaçamento interno da div */
-}
-
-.personagens article {
-    width: 250px; 
-    background-color: #fff; 
-    border: 1px solid #ddd; 
-    border-radius: 8px; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-    padding: 15px; /* Espaçamento interno dos artigos */
-    text-align: center; 
-}
-
-.personagens img {
-    width: 100%; 
-    height: auto; 
-    margin-bottom: 10px; /* Espaçamento abaixo da imagem */
-    border-radius: 8px; 
-}
-
-.personagens h3 {
+  }
+  
+  nav ul {
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 40px;
+  }
+  
+  nav li a {
+    color: #ffffff;
+  }
+  
+  nav li a:hover, nav li a.current {
+    color: #000000;
+  }
+  
+  section.lojinha {
+    float: left;
+    width: 659px;
+    border-right: 1px solid #eeeeee;
+  }
+  
+  article {
+    clear: both;
+    overflow: auto;
+    width: 100%;
+  }
+  
+  hgroup {
+    margin-top: 40px;
+  }
+  
+  figure {
+    float: left;
+    width: 290px;
+    height: 220px;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid #eeeeee;
+  }
+  
+  figcaption {
+    font-size: 90%;
+    text-align: left;
+  }
+  
+  aside {
+    width: 230px;
+    float: left;
+    padding: 0px 0px 0px 20px;
+  }
+  
+  aside section a {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #eeeeee;
+  }
+  
+  aside section a:hover {
+    color: #985d6a;
+    background-color: #efefef;
+  }
+  
+  a {
     color: #e57561;
-    margin-bottom: 10px; /* Espaçamento abaixo do título */
-}
-
-.personagens p {
-    line-height: 1.5; /* Espaçamento entre as linhas do texto */
-}
-
+    text-decoration: none;
+  }
+  
+  h1, h2, h3 {
+    font-weight: normal;
+  }
+  
+  h2 {
+    margin: 10px 0px 5px 0px;
+    padding: 0px;
+  }
+  
+  .button {
+    background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+    border: 0;
+    border-radius: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+  }
+  
+  .button:not([disabled]):focus {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+  }
+  
+  .button:not([disabled]):hover {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+  }
+  
+  aside h2 {
+    padding: 30px 0px 10px 0px;
+    color: #f46140;
+  }
+  
+  footer {
+    font-size: 80%;
+    padding: 7px 0px 0px 20px;
+  }
+  
+  /*── ⊹ ࣪ ˖♡˖ ࣪ ⊹ ──  Configuração da página de Personagens── ⊹ ࣪ ˖♡˖ ࣪ ⊹ ── */
+  
+  .personagens-subtitulo {
+      font-size: 1.5em;
+      font-style: normal;
+      color: #d3614f;
+      text-align: center;
+      margin-bottom: 30px;
+      text-shadow: 2px 2px 4px rgba(245, 229, 229, 0.2);
+  }
+  
+  .personagens {
+      display: flex;
+      flex-wrap: wrap; /* quebra em novas linhas */
+      justify-content: center; 
+      gap: 20px; /* Espaçamento entre os artigos */
+      padding: 20px; 
+  }
+  
+  .personagens article {
+      width: 250px; 
+      background-color: #fff; 
+      border: 1px solid #ddd; 
+      border-radius: 8px; 
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+      padding: 15px; /* Espaçamento interno dos artigos */
+      text-align: center; 
+  }
+  
+  .personagens img {
+      width: 100%; 
+      height: auto; 
+      margin-bottom: 10px; /* Espaçamento abaixo da imagem */
+      border-radius: 8px; 
+  }
+  
+  .personagens h3 {
+      color: #e57561;
+      margin-bottom: 10px; /* Espaçamento abaixo do título */
+  }
+  
+  .personagens p {
+      line-height: 1.5; /* Espaçamento entre as linhas do texto */
+  }
+  
+  /*── ⊹ ࣪ ˖♡˖ ࣪ ⊹ ──  Configuração da página de Temporadas ── ⊹ ࣪ ˖♡˖ ࣪ ⊹ ── */
+  
+  .temporadas {
+      padding: 20px;
+      text-align: center; 
+  }
+  
+  .table {
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 800px;
+      margin: 20px auto;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: left;
+  }
+  
+  .table th, .table td {
+      padding: 12px 15px;
+      border-bottom: 1px solid #ddd;
+  }
+  
+  .table th {
+      background-color: #f0f0f0;
+      font-weight: bold;
+      text-align: left;
+  }
+  
+  .table tr:nth-child(even) {
+      background-color: #f9f9f9;
+  }
+  
+  .table a {
+      display: inline-block; /* Para alinhar os logos */
+      margin-left: 10px;
+  }
+  
+  .platform-logo {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      cursor: pointer;
+  }
+  
+  .platform-logo.netflix {
+      background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAADDklEQVR4nO2Wy08TURSHSWQDKkJCebQ1RFEoWB4+gLZAW8fC0LktbSmlQKed6QJXJkYU0cRIYmL8A1wpqHs3BB8YN26NMXHjIxHiIxH/jmPO2HuZoXdmfMS44STfZk5zvnt+bSe3omK3/mctLS1VqqraVSwWI79LPp9n4IxQKFT5S1JFUXpVVd0sFotAUVW1DEVRyigUCmXk8/lNWZZ7bDdVFGXzTwQlSRmyLCMbmUxmj6lYlmWvlYQ3mA7P5XJUYgCfl3peq5jDZqJFIQKrrR6NO90n2MAFQYAbgYDGXCzGniOzs7OMXC4XNhVjkxOTxs0BP2xV1cP3qnr4Vu2AYjIFMzMzcL+zE5653RpXQyGDDPuUbDZrLebFhCwGg/CupkETI7dP+mB6etogvhIMGmTYp2TtxLyYENzmhaOZiV87WiCTycC9jg6DWCfaSdhSzIsJwaFrLhd82etg8gtCxCBeHB5moqmpKQNZKzE2eTEhKF53u+FlXSMTPzxyDFZ04stDQ0yEaehJp9PWYpOYtG1w+JMmJ/uRfd7fCCtH2wxilExOTpaRthPzYkJwKA5/5HLBm7rt7/qxq0VLAnsLg4NUwiNsKebFhOBQHI6S1YOHmPjtgSbtMFQ8MTHBJZFImIvxVCYxMTGy3NYGH2qdTL7e2Kw9vxQIQCqVKiOZTNqLeTHhiXEoFa94PLDs6WbiV7UN8LQkRslOEomEvZgXE55aL15ub4fC6TOwVf3zr/W12gFrThdc9PupxMD4+Li1GJu8mBAcqhcTQuC58zDb+kV9E8z7fJpETzwe1yCEWItNYioTx2IxuHbKx8TvaxrgfH8/E1Hwc4itmBcTgttQ8d2SOB6Nwqd92+/v6z3HmUgnpIQtxbyYkJwgwHxfH5zFl4QgsKFzg0Nwq6sXHrS2w7kBv14EkiQxiJWYEOLlxWSygamEEo1GGYQQ84sAXswIIZtWEjuBnrGxMQ1RFD9aXn2wJEnqlSRpgycwk1CBHlEUKRujo6PWlz1aeDqMRhTFyN8wMjLitd10tyr+cf0AAOUVfciXF9sAAAAASUVORK5CYII="); /* logo Netflix em base64 */
+  }
+  
+  .platform-logo.amazon-prime {
+      background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAE9ElEQVR4nO3W/1PTdRwH8Hm7sosuLk24LKw8FHeAkHCCou6jvMs7uQuvXOiZJhByJgQipoU2FRRKGAoHGjBQHN/GcISMrRCHDLcxYOAQkLY5hgMmGGSUnr/w7NzdjFmbcHrnL77+gPfjnq/X633vN432op578fl0z9SLPgyOmHhn1RPfXCnx/UlGfLly4n9ORfzL1SRQoCGB1d1kVW0fWSXWE2a9kTClJhIsN5N1irGlLD7oMzIXJVVscWdXDnmkVIORVgvPDAm8T9XDJ0cK3zwZlhUq4F+swvIyNQIrNVgh7EZQbR9WS/RgXjJi7RUTgq+aEdxyZ/Cj9j/CpoW+m3B2y8L9JXBPqsCiwwI8LU6Uo5NPxll8ulssd+i9vefwLPGHyR22/e3o0z7vfJWHBV9z4QiPqekEk9s8s+TyMW+7sOsX2dT8qFxYca+kUiw7Uol1GSILvoIjhh9HgriaDqzOa7TgoRVtWFncgo3CawgsV2OlQINNv2qxWvQYLhum7MNbM6m3wrNgxTPFaki6jFAbR7G1QIqRifsQXhvALzeGEF3VBtPdexD1mdEzOoHmW+NIU/ajYWAcFdo7ONN92yY5U3rLPjw37ATlui0TVpwjakcCrwnHL7bh4AUVjL9PWJJLegYRxW9Bm2kM2ytbUXNjGOzG35DTPoDbfz9AYfcwIht0tm2vNziAP02l5m0+ASueXqNCU68JKr0ZgUcrIdeZLTPnqXTYfLYJop5BsHhyFLX3Y6/4OlJkWvCuD+GycQxxjTqbmQeJtfZh59Bkau6mVFjx9Gol4gobHs38qbb9Yq8DOIRNvbExGVbcLTwLC6JyLG1fHF+Iuk7DI/xzrhTpl7qmjQcIuxzA65Mo55DDsOKhR8rhG5ePoG+LEXK8CnuKG7EwvgiJ5c3gynpRptJh6bFqJAjbsK1EDq8MCRLrNPi+oRfLuVdt8IBKB7BT8H7q9fUHYcXjT9chvUoOnrQL0afFMI7eRcL5Rog6DMiu16BUqUVFqx7sWjWG7t7DvpoOSPUjKOkcQH5bv03ygLIOBzBzL/Va8AFYcbctP0DRMwC1bhiLo3MtcJpQiWPCFkQVXEKJvA8KnRnnlVrEC1pwoqEbJ6/cQEy1Gj/3DNm03e98q314dlAc9eqaREzFs4UKsIsvw217JmTdA5a2q2+aUddhsNzznUWX0WoYAU+pxRqOCArDKDoHxxFWorCZuV+RwgEcsJt6ZeUePI5PXbip93wm2+6TL7MP032iqZeXx8KKB3x5ErEnqzEvNHlauN9RAU41XIfi5giOiK/Z4tlSB7BnJPXSB7swFf8w7gyaNQZk8GVYl1iAN1n/xd1252HtMQG+Eyhwof0mvqlqwc7SqzbJPTPr7cM0j0iK7h2Fx3GXDYdwKF8Co3kcE/ceoFM/jCuafkja9VD0mTD2133cuvMnUmtaseQAD/v4Cngc4tu03SujjmkfXhy5dBYjAv+HW2e+YncudnKESCltRHJZE2LOSEAd5D1x5h5pIvvPIo3Gos9ihA8+CZ/pwrmzBaaHfzgHMI1GWxKxeRYjYvLZ4bxJ96RyFm1axdgR9kySxxaY3k8onib6qFh0mscObxojnNC9owjddxeZ7R9DZgfGEydmInEKPkCc1ycR5xA2mfNxMpnzSSpx+exH4rKNQ+aHZxHXiFyvh3+4f897UbTnU/8AMxwT6kZhRPMAAAAASUVORK5CYII="); /* logo Amazon Prime em base64 */
+  }
+  
+  .platform-logo.max{
+      background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC+0lEQVR4nM2W204TURSGeQbxATw8ClHBGEuvgWvhDYRLRRopMFx26jEqEo2JCaBRSlSMAsWZIoUiRykoZUqFNm2BUmav36wZhhaBcCgT3MlKZrr3nm+vtf6Z/kVF/9MobfxysbTJX+OUVJdTCtw9XqiuMre/usQ1eOFA4LUm5axDUj9Uese0uk5Nv9UdRyFR26npVXJIK5eUnpIGf/G+0PJWZaahJyE8isBJxh1fXDgldXpPOGdqBzQf7pAU366eVnhDUbugVlTKIe2Se+B8Dtzkr6nriup2g292aPrVxoEb2+BySXXf7o7bCvUoAsxwtqiN+f1trffZD673xcGsQ4EjSRjRFhTgMbRIsMamAIJRwsMhgR8xQmYTSG4A/b/IPvDUMmEpbR5gNk7QCRiPEcJxc/7zHBUGXkwBGzoQ3YLkg5fXgEiKQASMRMmowMo6jD0ctoIXkgRBwKgFXgO0kwBH9in1WIy2D2OVeuIPYS5xQqWOHCCuYS0nrnUWVwboK0RcXlXg3TThzZT5kM4JMu75d76/FxDoDZMBeRYU+DhL+BQmvAyZ87IijPuuSYH7gSOAuXyxVVMsiYwZWtrsnZcrkQJ+J8koL2e6mgXeThHWssCTYYHBBcLSKrYP6jkMmDeyoHgTl5FH24iZRWoD6J0zhSVvrZ9cJmSFKSZWNx+W3+nnI0csdfuoQDqbUyW/LnwAvmZgYJEMVVvz3xZMRfP1i5B50JmVY4ir/QDwh1lhlPbxdwFZ5bKTUSGeDycI8wlCRgdejx8R3BbcCeZsLDD3jR/I6rZUrKXJWP913mwBi6nnJxmfz0db+zyHFVd7Xn+4V5yZ1f8HgdyaV2PmHF+zui0FczzNW+vZC3xqf4tlbn81mzu7wbX/GgG2oFXyqO3Wp0IOaVdc/ed2+C62oGzI7ILW+1aEQ1Lf74AaWTf4i9mC2gE3ocrM5ea+M7vAFpwtKLtBNmYFG/oOTefycqb7QvMHW1AWgaNZabneqniOE7yXn7Grp6c9/gJTX6DDXLCbDQAAAABJRU5ErkJggg=="); /* logo HBO Max em base64 */
+  }
+  
+  
+  .form-container {
+    width: 500px; 
+    margin: 40px auto;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f8f6; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #e57561; 
+  }
+  
+  .form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333; 
+  }
+  
+  .form-container input[type="text"],
+  .form-container input[type="email"],
+  .form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .form-container textarea {
+    resize: vertical; 
+  }
+  
+  .form-container .button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #e57561;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-container .button:hover {
+    background-color: #d3614f;
+  }
