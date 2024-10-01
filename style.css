@@ -5,11 +5,16 @@ body {
 color: #666666;
 background-color: #f9f8f6;
 background-image: url("assets/adve.jpg");
+background-attachment: fixed; 
+background-size: cover; /* Ajuste a imagem para cobrir a tela */
 background-position: center;
 font-family: Georgia, Times, serif;
 line-height: 1.4em;
 margin: 0px;
 }
+
+
+
 .wrapper {
 width: 940px;
 margin: 20px auto 20px auto;
@@ -138,7 +143,7 @@ font-size: 80%;
 padding: 7px 0px 0px 20px;
 }
 
-/* tabela  */
+/* tabela */
 
 .temporadas {
     padding: 20px;
@@ -252,6 +257,16 @@ padding: 7px 0px 0px 20px;
   background-color: #d3614f;
 }
 
+
+.personagens-subtitulo {
+    font-size: 1.5em;
+    font-style: normal;
+    color: #d3614f;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(245, 229, 229, 0.2);
+}
+
 .personagens {
     display: flex;
     flex-wrap: wrap; /* Permite que os artigos quebrem em novas linhas */
@@ -261,24 +276,24 @@ padding: 7px 0px 0px 20px;
 }
 
 .personagens article {
-    width: 250px; /* Largura dos artigos */
-    background-color: #fff; /* Cor de fundo dos artigos */
-    border: 1px solid #ddd; /* Borda dos artigos */
-    border-radius: 8px; /* Borda arredondada dos artigos */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra dos artigos */
+    width: 250px; 
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
     padding: 15px; /* Espaçamento interno dos artigos */
     text-align: center; 
 }
 
 .personagens img {
     width: 100%; 
-    height: auto; /* Altura da imagem ajustada automaticamente */
+    height: auto; 
     margin-bottom: 10px; /* Espaçamento abaixo da imagem */
-    border-radius: 8px; /* Borda arredondada da imagem */
+    border-radius: 8px; 
 }
 
 .personagens h3 {
-    color: #e57561; /* Cor do título dos personagens */
+    color: #e57561;
     margin-bottom: 10px; /* Espaçamento abaixo do título */
 }
 
