@@ -19,8 +19,8 @@ header, section, footer, aside, nav, article, figure, figcaption {
   .wrapper {
     width: 940px;
     margin: 20px auto 20px auto;
-    border: 2px solid #000000;
-    background-color: #ffffff;
+    border: 2px solid #000;
+    background-color: #fff;
   }
   
   header {
@@ -37,7 +37,7 @@ header, section, footer, aside, nav, article, figure, figcaption {
   
   nav, footer {
     clear: both;
-    color: #ffffff;
+    color: #fff;
     background-color: #aeaca8;
     height: 30px;
   }
@@ -300,7 +300,7 @@ header, section, footer, aside, nav, article, figure, figcaption {
   }
   
   .form-container textarea {
-    resize: vertical; 
+    resize: none; 
   }
   
   .form-container .button {
